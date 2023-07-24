@@ -79,5 +79,3 @@ function game() {
 
     printGameResult(playerScore, computerScore)
 }
-
-game();
