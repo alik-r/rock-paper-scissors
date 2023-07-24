@@ -10,32 +10,35 @@
 </head>
 
 <body>
-    <h1>Rock Paper Scissors!</h1>
-    <h2>Player vs PC</h2>
-    <h3>First one to score 5 points wins!</h3>
-    <div class="score">0 : 0</div>
-    <div class="round-result">Choose an option to begin</div>
-    <div class="options">
-        <div class="option">
-            <p>Rock</p>
-            <button>
-                <img src="./rock.jpeg" alt="Rock image">
-            </button>
+    <div class="container">
+        <h1>Rock, Paper, Scissors!</h1>
+        <h3>Player vs Computer</h2>
+        <h4 class="rules">First one to score 5 points wins!</h3>
+        <div class="score">0 : 0</div>
+        <div class="round-result"></div>
+        <div class="options">
+            <div class="option">
+                <button class="btn rock">
+                    <img src="./rock.png" alt="Rock image">
+                </button>
+                <p>Rock</p>
+            </div>
+            <div class="option">
+                <button class="btn paper">
+                    <img src="./paper.png" alt="Paper image">
+                </button>
+                <p>Paper</p>
+            </div>
+            <div class="option">
+                <button class="btn scissors">
+                    <img src="./scissors.png" alt="Scissors">
+                </button>
+                <p>Scissors</p>
+            </div>
         </div>
-        <div class="option">
-            <p>Paper</p>
-            <button>
-                <img src="./paper.png" alt="Paper image">
-            </button>
-        </div>
-        <div class="option">
-            <p>Scissors</p>
-            <button>
-                <img src="./scissors.png" alt="Scissors">
-            </button>
-        </div>
+        <div class="winner"></div>
+        <button class="btn reset"></button>
     </div>
-    <div class="restart"></div>
 </body>
 
 </html>
